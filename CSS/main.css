@@ -1,8 +1,17 @@
 body {
-	background-color: #f1f1f1;
+	background-color: #fcfcfc;
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 	padding: 0;
+}
+.shadow {box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);}
+.text-shadow {text-shadow: 0 4px 4px #00000052;}
+.btn {
+	cursor: pointer;
+}
+.btnp {
+	padding-left: 40px; 
+	padding-right: 40px;
 }
 .header {
 	background: url(../IMG/header_image.jpg) no-repeat center center;
@@ -11,6 +20,7 @@ body {
 	background-size: cover;
 	height: 100vh;
 	color: #fff;
+	margin-top: -57px;
 }
 .darken-bg {
 	background-color: #000;
@@ -30,11 +40,121 @@ body {
 }
 .headerImage {
 	position: relative;
-	height: 86%;
+	height: 100%;
 	display: flex;
 	align-items: center;
 }
-.headerImage .lead {
+.headerImage p {
 	width: 83%;
 	font-size: 27px;
+	line-height: 1;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+.headerImage .btn {
+	margin-right: 40px;
+}
+
+.section {
+	padding: 120px 0;
+}
+.section-dark {
+	background-color: #037EF3;
+	color: #fff;
+}
+.section-heading h2 {
+	font-size: 3em;
+	font-weight: 300;
+	margin-bottom: 60px;
+}
+.section-light .section-heading h2 {
+	color: #037EF3;
+}
+.section-dark .section-heading h2 {
+	color: #fff;
+}
+
+.col-item .image {
+	margin-bottom: 30px;
+}
+.section-action {
+	margin-top: 30px;
+}
+.section-numbers .col-sm{
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 1.2;
+}
+.section-numbers .strong {
+	font-size: 50px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.section-prods .col-sm {
+	padding-left: 0;
+	padding-right: 0;
+}
+.section-prods .description {
+	margin-left: -18px;
+}
+.section-LDQ .image {
+	margin-bottom: 15px;
+}
+.section-LDQ .quality {
+	font-size: 23px;
+	line-height: 1.3;
+	font-weight: 900;
+}
+
+.testimonial-image {
+	background: url(../IMG/EP01.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 500px;
+	padding: 50px;
+}
+.testimonial-content {
+	width: 50%;
+	height: 100%;
+	padding: 50px;
+	background-color: white;
+}
+.testimonial-content .t-name {
+	font-size: 50px;
+	font-weight: 900;
+	color: #037EF3;
+}
+.testimonial-content .p-image img {
+	width: 150px;
+}
+.testimonial {
+	font-size: 18px;
+	color: #444;
+	line-height: 1.3;
+}
+
+@media (max-width: 991px) {
+	.testimonial-image {
+		padding: 0;
+		position: relative;
+	}
+	.testimonial-content {
+		width: 100%;
+		height: auto;
+		position: absolute;
+		bottom: 0;
+	}
+	.testimonial-content .p-image img {
+		width: 100px;
+	}
+	.testimonial-content .t-name {
+		font-size: 30px;
+	}
+	.testimonial {
+		font-size: 16px;
+	}
+}
+.footer {
+	height: 300px;
+	background-color: #037EF3;
 }
