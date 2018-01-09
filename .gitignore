@@ -1,2 +1,5 @@
-#No need for images
+# No need for images
 IMG/
+
+# Sublime stuff
+*.sublime-*
