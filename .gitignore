@@ -1,5 +1,6 @@
 # No need for images
-IMG/
+build/IMG
+src/IMG
 
 # Sublime stuff
 *.sublime-*
@@ -7,3 +8,5 @@ IMG/
 # node stuff
 node_modules/
 package*.json
+
+gulpfile.js
