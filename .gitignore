@@ -3,3 +3,7 @@ IMG/
 
 # Sublime stuff
 *.sublime-*
+
+# node stuff
+node_modules/
+package*.json

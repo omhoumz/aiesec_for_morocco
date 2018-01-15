@@ -4,6 +4,7 @@ $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
+  .not('[href="#carouselIndicators"]')
   .click(function(event) {
     // On-page links
     if (
@@ -35,7 +36,11 @@ $('a[href*="#"]')
       }
     }
   });
+$(function () {
   // Auto year in copyright
-  $(function () {
-    $(".thisYear").text(new Date().getFullYear());
-  });
+  $(".thisYear").text(new Date().getFullYear()); 
+
+  // carousel init
+  /*$('.carousel').carousel({ pause: true });*/
+});
+
