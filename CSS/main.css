@@ -161,7 +161,6 @@ body {
 }
 
 .testimonial-image {
-	/*background: url(../IMG/EP01.jpg) no-repeat center center;*/
 	background: url(https://s3.eu-west-1.amazonaws.com/gis-production-eu/profile_photos/original/1496480047.png) no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;

@@ -1,4 +1,3 @@
-
 // Smooth Scroling With JQuery from: https://css-tricks.com/snippets/jquery/smooth-scrolling/
 // Select all links with hashes
 $('a[href*="#"]')
@@ -35,4 +34,8 @@ $('a[href*="#"]')
         });
       }
     }
+  });
+  // Auto year in copyright
+  $(function () {
+    $(".thisYear").text(new Date().getFullYear());
   });
