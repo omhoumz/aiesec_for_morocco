@@ -39,8 +39,4 @@ $('a[href*="#"]')
 $(function () {
   // Auto year in copyright
   $(".thisYear").text(new Date().getFullYear()); 
-
-  // carousel init
-  /*$('.carousel').carousel({ pause: true });*/
 });
-
