@@ -1,4 +1,4 @@
-# AIESEC For Morocoo Website
+# AIESEC For Morocco Website
 
 > **src/** coutains source code
 
