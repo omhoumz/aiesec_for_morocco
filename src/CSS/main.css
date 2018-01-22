@@ -13,6 +13,11 @@ body {
 	padding-left: 40px; 
 	padding-right: 40px;
 }
+.s-icon {
+	margin-right: 8px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
 .header {
 	background: url(../IMG/header_image.jpg) no-repeat center center;
 	background-attachment: fixed;
@@ -174,7 +179,7 @@ body {
 	padding: 50px;
 }
 .testimonial-content .t-name {
-	font-size: 50px;
+	font-size: 42px;
 	font-weight: 900;
 	color: #037EF3;
 }
@@ -259,6 +264,10 @@ body {
 	.headerImage p {
 		font-size: 18px;
 	}
+	.testimonial {
+		font-size: 14px;
+		text-indent: -3px;
+	}
 	.testimonial-content {
 		font-size: 11px;
 	}
@@ -283,7 +292,11 @@ body {
 		font-size: 15px;
 	}
 	.section-testimenials .carousel-caption {
-		right: 12%;
+		right: 10%;
+		left: 10%;
+		top: 0%;
+		bottom: 13%;
+		padding: 8px 18px;
 	}
 	.rights {
 		padding: 0 0 0 12px;
